@@ -1,0 +1,25 @@
+{
+  "name": "filecompress_backend",
+  "version": "1.0.0",
+  "description": "The backend for a file compression service",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "clean": "rm -rf compressed && rm -rf node_modules"
+  },
+  "keywords": [
+    "backend",
+    "server",
+    "file",
+    "compression"
+  ],
+  "author": "Chris Adamson",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.4"
+  }
+}
